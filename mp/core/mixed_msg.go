@@ -65,7 +65,7 @@ type MixedMsg struct {
 	*account        // account
 	*dkf            // dkf
 	*poi            // poi
-	*card           // card
+	card            // card
 	*bizwifi        // bizwifi
 	*file           // MsgType is file
 
