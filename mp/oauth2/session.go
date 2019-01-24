@@ -4,10 +4,10 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	"github.com/chanxuehong/wechat/internal/debug/api"
-	util2 "github.com/chanxuehong/wechat/internal/util"
-	"github.com/chanxuehong/wechat/oauth2"
-	"github.com/chanxuehong/wechat/util"
+	"github.com/nwyy/wechat/internal/debug/api"
+	util2 "github.com/nwyy/wechat/internal/util"
+	"github.com/nwyy/wechat/oauth2"
+	"github.com/nwyy/wechat/util"
 	"net/http"
 )
 

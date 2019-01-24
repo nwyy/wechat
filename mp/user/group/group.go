@@ -2,7 +2,7 @@
 package group
 
 import (
-	"github.com/chanxuehong/wechat/mp/core"
+	"github.com/nwyy/wechat/mp/core"
 )
 
 type Group struct {

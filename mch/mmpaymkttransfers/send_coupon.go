@@ -1,7 +1,7 @@
 package mmpaymkttransfers
 
 import (
-	"github.com/chanxuehong/wechat/mch/core"
+	"github.com/nwyy/wechat/mch/core"
 )
 
 // 发放代金券.

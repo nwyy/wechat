@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/chanxuehong/wechat/mch/core"
-	wechatutil "github.com/chanxuehong/wechat/util"
+	"github.com/nwyy/wechat/mch/core"
+	wechatutil "github.com/nwyy/wechat/util"
 )
 
 // Refund 申请退款.
