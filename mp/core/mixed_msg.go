@@ -69,6 +69,8 @@ type MixedMsg struct {
 	*bizwifi        // bizwifi
 	*file           // MsgType is file
 
+	UnionId string `xml:"UnionId" json:"UnionId"` // 领取卡时会获得用户的UnionID
+
 	// shakearound
 	ChosenBeacon *struct {
 		UUID     string  `xml:"Uuid"     json:"Uuid"`
