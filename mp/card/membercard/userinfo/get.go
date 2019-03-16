@@ -10,11 +10,18 @@ type CustomField struct {
 	Value string `json:"value"`
 }
 
-type UserInfo struct {
-	openid          string        `json:"openid"`
-	nickname        string        `json:"nickname"`
-	sex             string        `json:"sex"`
+type UInfo struct {
 	CustomFieldList []CustomField `json:"custom_field_list"`
+	CommonFieldList []CustomField `json:"common_field_list"`
+}
+
+type UserInfo struct {
+	Openid          string        `json:"openid"`
+	Nickname        string        `json:"nickname"`
+	Sex             string        `json:"sex"`
+	Bonus             int         `json:"bonus"`
+	Balance             int         `json:"balance"`
+	UserIF   UInfo  `json:"user_info"`
 }
 
 // 拉取会员信息（积分查询）接口
